@@ -64,3 +64,9 @@ body {
 .carousel-item h2, .carousel-item h4, .carousel-item p {
     color: black;
 }
+
+#carouselButtons {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
