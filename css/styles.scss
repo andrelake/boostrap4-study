@@ -1,68 +1,89 @@
+$background-dark: rgb(47, 143, 187);
+$background-light: lightblue;
+$background-pale: floralwhite;
+
 .modal-header {
-  background-color: #2f8fbb;
-  color: floralwhite; }
+  background-color: $background-dark;
+  color: $background-pale;
+}
 
 .modal-body {
-  background-color: lightblue; }
+  background-color: $background-light;
+}
 
 .close {
-  color: floralwhite; }
+  color: $background-pale;
+}
 
 body {
   padding: 50px 0px 0px 0px;
-  z-index: 0; }
+  z-index: 0;
+}
 
 .row-header {
   margin: 0px auto;
-  padding: 0px auto; }
+  padding: 0px auto;
+}
 
 .row-content {
   margin: 0px auto;
   padding: 50px 0px 50px 0px;
   border-bottom: 1px ridge;
-  min-height: 400px; }
+  min-height: 400px;
+}
 
 .footer {
-  background-color: lightblue;
+  background-color: $background-light;
   margin: 0px auto;
-  padding: 20px 10px 20px 0px; }
+  padding: 20px 10px 20px 0px;
+}
 
 .jumbotron {
   padding: 70px 30px 70px 30px;
   margin: 0px auto;
-  background-color: #2f8fbb;
-  color: floralwhite; }
+  background-color: rgb(47, 143, 187);
+  color: $background-pale;
+}
 
 .adress {
   font-size: 80%;
   margin: 0px;
-  color: black; }
+  color: black;
+}
 
 .navbar-dark {
-  background-color: black; }
+  background-color: black;
+}
 
 .tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  padding: 10px; }
+
+  padding: 10px;
+}
 
 .carousel {
-  background: lightblue; }
+  background: $background-light;
+}
 
 .carousel-item {
-  height: 250px; }
+  height: 250px;
+}
 
 .carousel-item img {
   position: absolute;
   top: 0;
   left: 0;
-  min-height: 250px; }
+  min-height: 250px;
+}
 
 .carousel-item h2, .carousel-item h4, .carousel-item p {
-  color: black; }
+  color: black;
+}
 
 #carouselButton {
   right: 0px;
   position: absolute;
-  bottom: 0px; }
+  bottom: 0px;
+}
